@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "run-p pug-it:w server",
+    "start": "ng serve --port 5280 --open",
     "server": "ng serve --port 5280 --open",
     "prebuild": "npm run pug-it",
     "build": "ng build",
